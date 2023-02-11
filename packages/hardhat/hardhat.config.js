@@ -24,7 +24,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 //
 // Select the network you want to deploy to here:
 //
-const defaultNetwork = "localhost";
+const defaultNetwork = "fujiAvalanche";
 
 function mnemonic() {
   try {
@@ -85,7 +85,7 @@ module.exports = {
       },
     },
     gnosis: {
-      url: 'https://rpc.gnosischain.com/',
+      url: "https://rpc.gnosischain.com/",
       gasPrice: 1000000000,
       accounts: {
         mnemonic: mnemonic(),
@@ -120,7 +120,7 @@ module.exports = {
       },
     },
     chiado: {
-      url: 'https://rpc.chiadochain.net',
+      url: "https://rpc.chiadochain.net",
       gasPrice: 1000000000,
       accounts: {
         mnemonic: mnemonic(),
