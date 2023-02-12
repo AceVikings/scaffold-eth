@@ -10,7 +10,7 @@
   ],
   "private": true,
   "engines": {
-    "node": ">=16.14"
+    "node": "^16.0.0"
   },
   "scripts": {
     "react-app:build": "yarn workspace @scaffold-eth/react-app build --max-old-space-size=12288",
